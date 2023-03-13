@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Little Taco Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="Image/fruits.png">
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__h1">Little Fruits shop</h1>
+        <nav class="header__nav">
+            <ul class="header__ul">
+                <li>
+                    <a href="#menu">Menu</a>
+                </li>
+                <li>
+                    <a href="hours.html">Hours</a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2 class="hero__h2">Mahi Fruits</h2>
+        <figure>
+            <img src="Image/a.jpg" alt="Food Image a" width="1000" height="667" title="Full of Fruits">
+            <figcaption class="offscreen">
+                Fruits and Foods
+            </figcaption>
+        </figure>
+    </section>
+    <main class="main">
+        <article id="menu" class="main__article menu">
+            <h2 class="menu__h2">Our Fruits Menu</h2>
+            <table class="menu__container">
+               <caption class="offscreen">Our Fruits</caption> 
+               <thead>
+                    <tr>
+                        <th class="menu__header" scope="col">Fruits</th>
+                        <th class="menu__header" scope="col">Kg</th>
+                        <th class="menu__header" scope="col">Price</th>
+                    </tr>
+               </thead>
+               <tbody>
+                    <tr>
+                        <th class="menu__item menu__cr" scope="row" rowspan="3">
+                            Mango
+                        </th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">&#8377 25</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">&#8377 40</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">&#8377 55</td>
+                    </tr>
+                    <tr>
+                        <th class="menu__item menu__sf" scope="row" rowspan="3">
+                            Banana
+                        </th>
+                        <td class="menu__item">1</td>
+                        <td class="menu__item">&#8377 40</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">2</td>
+                        <td class="menu__item">&#8377 75</td>
+                    </tr>
+                    <tr>
+                        <td class="menu__item">3</td>
+                        <td class="menu__item">&#8377 100</td>
+                    </tr>
+               </tbody>
+               <tfoot>
+                    <tr>
+                        <td class="menu__item menu__cs" colspan="3"> 
+                            1kg Mango &amp; Banana &#8377 50
+                        </td>
+                    </tr>
+               </tfoot>
+            </table>
+            <p class="center">
+                <a href="#">Back To Top</a>
+            </p>
+        </article>
+    </main>
+        <footer class="footer">
+            <p>
+                <span class="nowrap">Copyright &copy; <time id="year"></time></span>   
+                <span class="nowrap">Mahitalk</span>
+            </p>
+        </footer>
+</body>
+</html>
